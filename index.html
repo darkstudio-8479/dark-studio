@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Studio | Cinematic AAA Game Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header glass">
+    <div class="logo">Dark Studio</div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#showcase">Games</a>
+      <a href="#about">About</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Cinematic AAA Game Studio</p>
+        <h1>Dark Studio</h1>
+        <p class="subtitle">Forging cinematic worlds where light and shadow collide. Next-gen storytelling, precision gameplay, unforgettable atmospheres.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#showcase">Explore Games</a>
+          <a class="btn ghost" href="#contact">Start a Project</a>
+        </div>
+      </div>
+      <div class="hero-panel glass">
+        <h3>Studio Signal</h3>
+        <p>We build immersive experiences for PC, console, and cloud platforms. From concept to launch, Dark Studio delivers premium interactive cinema.</p>
+        <div class="stats">
+          <div>
+            <span class="stat">12</span>
+            <span class="label">Awards</span>
+          </div>
+          <div>
+            <span class="stat">6</span>
+            <span class="label">Flagship IPs</span>
+          </div>
+          <div>
+            <span class="stat">180+</span>
+            <span class="label">Team Members</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase" class="section">
+      <div class="section-header">
+        <h2>Game Showcase</h2>
+        <p>Flagship worlds crafted for cinematic immersion.</p>
+      </div>
+      <div class="game-grid">
+        <article class="game-card glass game-ember">
+          <div class="game-meta">
+            <h3>Emberfall</h3>
+            <p>A sunless empire where you command elite exo-sentinels to reclaim the sky.</p>
+          </div>
+          <span class="tag">Action RPG</span>
+        </article>
+        <article class="game-card glass game-aurora">
+          <div class="game-meta">
+            <h3>Neon Meridian</h3>
+            <p>High-speed heists across an orbital megacity with dynamic narrative choices.</p>
+          </div>
+          <span class="tag">Narrative Thriller</span>
+        </article>
+        <article class="game-card glass game-obsidian">
+          <div class="game-meta">
+            <h3>Obsidian Drift</h3>
+            <p>Command a rogue cruiser through a dying galaxy with real-time tactical combat.</p>
+          </div>
+          <span class="tag">Strategy Adventure</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-header">
+        <h2>About the Studio</h2>
+        <p>We merge cinematic craft with technical mastery to build living worlds.</p>
+      </div>
+      <div class="two-col">
+        <div class="glass panel">
+          <h3>Vision</h3>
+          <p>Dark Studio is a collective of designers, engineers, and storytellers obsessed with cinematic immersion. Our pipelines combine real-time volumetrics, bespoke motion capture, and adaptive soundscapes to amplify every moment.</p>
+        </div>
+        <div class="glass panel">
+          <h3>Capabilities</h3>
+          <ul class="capabilities">
+            <li>Full-service AAA production pipelines</li>
+            <li>Advanced real-time rendering & volumetric FX</li>
+            <li>Player-centric narrative systems</li>
+            <li>Cross-platform optimization</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section">
+      <div class="section-header">
+        <h2>Team</h2>
+        <p>Elite talent blending artistry and engineering.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card glass">
+          <div class="avatar"></div>
+          <h4>Astra Voss</h4>
+          <p>Creative Director</p>
+        </div>
+        <div class="team-card glass">
+          <div class="avatar"></div>
+          <h4>Riven Holt</h4>
+          <p>Technical Director</p>
+        </div>
+        <div class="team-card glass">
+          <div class="avatar"></div>
+          <h4>Lyra Kane</h4>
+          <p>Lead Narrative Designer</p>
+        </div>
+        <div class="team-card glass">
+          <div class="avatar"></div>
+          <h4>Nova Rhee</h4>
+          <p>Production Lead</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Let’s build the next cinematic experience together.</p>
+      </div>
+      <div class="contact-wrap glass">
+        <form class="contact-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea rows="4" placeholder="Tell us about your project" required></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <h3>Studio HQ</h3>
+          <p>Sector 9, Neo Arcadia</p>
+          <p>hello@darkstudio.com</p>
+          <p>+1 (555) 0199</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Dark Studio. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
