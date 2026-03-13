@@ -1,32 +1,71 @@
-﻿# Dark Studio
+﻿Dark Studio is a modern and responsive web project with a dark-themed user interface.
+The project focuses on clean design, smooth user experience, and responsive layouts for different screen sizes.
 
-Cinematic AAA game studio landing page with a dark futuristic aesthetic, glassmorphism panels, neon hover effects, and a Three.js particle background.
+---
 
 ## Features
-- Three.js animated particle and fog background
-- Cinematic hero with bold typography
-- Game showcase with animated cards
-- About, Team, and Contact sections
-- Smooth scrolling navigation
-- Responsive layout for desktop and mobile
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
-- Three.js (CDN)
+* Modern dark user interface
+* Responsive layout for desktop and mobile
+* Clean and minimal design
+* Lightweight and fast
 
-## How It Works
-- `index.html` defines the page structure and sections.
-- `style.css` handles the cinematic visual system, glassmorphism, hover glows, and responsive layouts.
-- `script.js` powers the Three.js background, scroll reveal animations, and navigation toggle for mobile.
+---
 
-## Run Locally
-Open `index.html` in a browser. For best results, use a simple local server.
+## Technologies Used
 
-Example (PowerShell):
-```powershell
-python -m http.server 8000
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## Project Structure
+
+```
+dark-studio
+
+ index.html
+ style.css
+ script.js
+ assets
 ```
 
-Then visit `http://localhost:8000/dark-studio/`.
+---
+
+## Installation
+
+1. Clone the repository
+
+```
+git clone https://github.com/darkstudio-8479/dark-studio.git
+```
+
+2. Open the project folder
+
+```
+cd dark-studio
+```
+
+3. Open `index.html` in your browser.
+
+---
+
+## Future Improvements
+
+* Add more UI components
+* Improve animations
+* Add additional pages and features
+
+---
+
+## Author
+
+Aaditya
+
+---
+
+## License
+
+This project is not open source.
+All rights are reserved. Unauthorized copying, modification, or distribution of this project is not permitted.
