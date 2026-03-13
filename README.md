@@ -1,71 +1,51 @@
-﻿Dark Studio is a modern and responsive web project with a dark-themed user interface.
-The project focuses on clean design, smooth user experience, and responsive layouts for different screen sizes.
+﻿# Dark Studio
 
----
+Dark Studio is a student game development team building its first project. This website is a professional, honest presentation of the team, their learning goals, and their current Unreal Engine project.
 
 ## Features
-
-* Modern dark user interface
-* Responsive layout for desktop and mobile
-* Clean and minimal design
-* Lightweight and fast
-
----
-
-## Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript
-
----
+- Dark, cinematic UI with subtle particle background
+- Responsive layout for desktop and mobile
+- Studio, project, and team sections based on real data
+- JSON-driven content for easy updates
+- Smooth scroll and gentle animations
 
 ## Project Structure
-
 ```
-dark-studio
-
- index.html
- style.css
- script.js
- assets
+/dark-studio
+  index.html
+  style.css
+  script.js
+  /data
+      studio.json
+      team.json
+      project.json
+  /assets
+      /images
+      /team
+      /game
+  README.md
 ```
 
----
+## Data Files
+- `data/studio.json` contains basic studio information.
+- `data/team.json` contains real team members, roles, and responsibilities.
+- `data/project.json` contains the current project details.
 
 ## Installation
+This repository is not meant to be installed as a package. It is a static website.
 
-1. Clone the repository
+To view it locally, open `index.html` in a browser or use a simple local server.
 
-```
-git clone https://github.com/darkstudio-8479/dark-studio.git
-```
-
-2. Open the project folder
-
-```
-cd dark-studio
+PowerShell example:
+```powershell
+python -m http.server 8000
 ```
 
-3. Open `index.html` in your browser.
+Then visit `http://localhost:8000/dark-studio/`.
 
----
-
-## Future Improvements
-
-* Add more UI components
-* Improve animations
-* Add additional pages and features
-
----
-
-## Author
-
-Aaditya
-
----
-
-## License
-
-This project is not open source.
-All rights are reserved. Unauthorized copying, modification, or distribution of this project is not permitted.
+## GitHub Pages Deployment
+1. Push the repository to GitHub.
+2. In the repo, go to Settings → Pages.
+3. Under Source, select `Deploy from a branch`.
+4. Choose branch `main` and folder `/ (root)`.
+5. Save. GitHub Pages will publish the site and show the public URL.

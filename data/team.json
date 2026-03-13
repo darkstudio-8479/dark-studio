@@ -1,0 +1,60 @@
+﻿[
+  {
+    "name": "Aaditya",
+    "role": "Project Lead / Lead Gameplay Developer",
+    "tool": "Unreal Engine",
+    "responsibilities": [
+      "Develop gameplay systems",
+      "Program survival mechanics",
+      "Create inventory and crafting systems",
+      "Implement creature AI",
+      "Integrate assets",
+      "Manage overall game design"
+    ]
+  },
+  {
+    "name": "Ansh",
+    "role": "Technical Lead / Build Manager",
+    "hardware": "Lenovo Legion Pro",
+    "responsibilities": [
+      "Maintain main project build",
+      "Optimize lighting and performance",
+      "Compile builds for testing",
+      "Manage backups",
+      "Integrate large assets and maps"
+    ]
+  },
+  {
+    "name": "Harshad",
+    "role": "Hard Surface Designer",
+    "tool": "Autodesk Fusion 360",
+    "responsibilities": [
+      "Design weapons",
+      "Create mechanical props",
+      "Design traps and machines",
+      "Model vehicles if needed"
+    ]
+  },
+  {
+    "name": "Chirag",
+    "role": "Environment Designer (Junior)",
+    "tools": ["Unreal Engine", "Blender"],
+    "responsibilities": [
+      "Create landscapes and terrain",
+      "Place trees and rocks",
+      "Design forests and exploration areas",
+      "Assist with environment assets"
+    ]
+  },
+  {
+    "name": "Vedant",
+    "role": "Tester / Asset Manager (Junior)",
+    "responsibilities": [
+      "Test game builds",
+      "Report bugs",
+      "Search for free assets",
+      "Organize project folders",
+      "Maintain documentation"
+    ]
+  }
+]

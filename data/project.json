@@ -1,0 +1,14 @@
+﻿[
+  {
+    "title": "Ashes of the Primal World",
+    "type": "Student Game Project",
+    "engine": "Unreal Engine",
+    "description": "A prehistoric survival game project being developed as a learning experience by the Dark Studio team.",
+    "features": [
+      "Survival mechanics",
+      "Crafting systems",
+      "Creature AI",
+      "Exploration environments"
+    ]
+  }
+]
